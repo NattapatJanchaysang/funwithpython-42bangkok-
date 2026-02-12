@@ -4,7 +4,7 @@ import sys
 
 if len(sys.argv) == 2:
     
-    result = sys.argv[1].lower()
+    result = sys.argv[1].upper()
     print(result)
 else:
     print("none")
